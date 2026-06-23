@@ -43,7 +43,6 @@ Loaded the telecom customer churn dataset using Pandas.
 ### 2. Data Cleaning
 
 - Removed customerID column
-- Converted TotalCharges to numeric values
 - Handled missing values
 
 ### 3. Target Variable Encoding
