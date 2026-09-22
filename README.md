@@ -93,12 +93,30 @@ Model performance was evaluated using:
 
 ---
 
+## Tableau Dashboard
+
+An interactive Tableau dashboard was built on the cleaned dataset to explore churn drivers visually.
+
+**Live dashboard:** https://public.tableau.com/views/churn_17900856168180/Dashboard1
+
+![Telecom Customer Churn Dashboard](Dashboard_1.png)
+
+Key views:
+
+- **Avg. Churn Rate by Tenure Group** — churn is highest among customers in their first 12 months and drops steadily the longer a customer stays.
+- **Avg. Churn Rate by Contract Type** — month-to-month customers churn at a far higher rate than one- or two-year contract holders.
+- **Avg. Monthly Charges by Churn** — customers who churn pay more per month on average than those who stay.
+- **Avg. Churn Rate by Internet Service** — Fiber optic customers churn at a noticeably higher rate than DSL customers.
+
+---
+
 ## Technologies Used
 
 - Python
 - Pandas
 - NumPy
 - Scikit-Learn
+- Tableau
 
 ---
 
